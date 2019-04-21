@@ -35,27 +35,26 @@ body {
 
 .box4 img {
 	height: 45px;
-	padding-left: 20px;
+	margin: 0 auto;
+    display: block;
+
 }
 
 .box4 p{
 	color: white;
-	margin-top: 0px;
-    margin-left: 15px;
 }
 
 .box5 {
 	float: right;
-	margin-top: 100px;
+	margin-top: 97px;
 }
 
 .box5 img {
 	height: 45px;
-	padding-left: 20px;
+	margin: 0 auto;
+    display: block;
 }
 
 .box5 p{
 	color: white;
-	margin-top: 0px;
-    padding-left: 10px;
 }
