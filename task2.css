@@ -1,0 +1,59 @@
+body {
+	background-color: #68cdd5;
+}
+
+.box1 img {
+	height: 30px;
+}
+
+.box2 {
+	width: 225px;
+	height: 103px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-left: 80px;
+}
+
+.box2 img {
+	height: 60px;
+}
+
+.box3 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box3 p {
+	color: white;
+	text-align: center;
+}
+
+.box4 {
+	float: left;
+	margin-top: 100px;
+}
+
+.box4 img {
+	height: 90px;
+}
+
+.box4 p{
+	color: white;
+	margin-top: 0px;
+    margin-left: 15px;
+}
+
+.box5 {
+	float: right;
+	margin-top: 100px;
+}
+
+.box5 img {
+	height: 90px;
+}
+
+.box5 p{
+	color: white;
+	margin-top: 0px;
+    padding-left: 10px;
+}
