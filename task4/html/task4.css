@@ -45,36 +45,34 @@ body{
 
 .number input{
 	height: 50px;
-	width: 100%;
+	width: 90%;
 	font-size: 16px;
 	background-color: #ffffff;
 	background-image: url(../img/登陆_03.png) ;/*添加图片*/
 	background-repeat: no-repeat;/*去掉图片重复*/
-	padding-left: 112px;
+	padding-left: 10%;
+	display: block;/*块级元素*/
 	border: none;/*去掉输入框的边框*/
-	background-position: 11px;
+	background-position: 4px
 }
 
-.password{
-	position: relative;
-}
 .password input{
 	height: 50px;
-	width: 100%;
+	width: 90%;
 	font-size: 16px;
 	background-color: #ffffff;
 	background-image: url(../img/登陆_06.png);/*添加图片*/
 	background-repeat: no-repeat;/*去掉图片重复*/
 	margin-top: 10px;
-	padding-left: 112px;
+	padding-left: 10%;
 	display: block;/*块级元素*/
 	border: none;/*去掉输入框的边框*/
-	background-position: 11px;
-	
+	background-position: 4px;
 }
 
 .forget p{
 	margin-top: 10px;
 	float: right;
 	color: #8bcdd7;
+	margin-right: 15px;
 }
