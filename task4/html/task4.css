@@ -43,31 +43,60 @@ body{
 	position: relative;
 }
 
-.number input{
-	height: 50px;
-	width: 90%;
-	font-size: 16px;
-	background-color: #ffffff;
-	background-image: url(../img/登陆_03.png) ;/*添加图片*/
-	background-repeat: no-repeat;/*去掉图片重复*/
-	padding-left: 10%;
-	display: block;/*块级元素*/
-	border: none;/*去掉输入框的边框*/
-	background-position: 4px
+.number img{
+	position: absolute;
+	height: 25px;
+	top: 14px;
+	left: 20px;
+	
 }
 
-.password input{
+.number span{
+	position: absolute;
+	height: 25px;
+	top: 10px;
+	left: 52px;
+	color: #bababa;
+	font-size: 20px;
+}
+
+.number input{
 	height: 50px;
-	width: 90%;
+	width: 100%;
 	font-size: 16px;
 	background-color: #ffffff;
-	background-image: url(../img/登陆_06.png);/*添加图片*/
-	background-repeat: no-repeat;/*去掉图片重复*/
-	margin-top: 10px;
-	padding-left: 10%;
 	display: block;/*块级元素*/
 	border: none;/*去掉输入框的边框*/
-	background-position: 4px;
+	text-indent: 70px;/*文本框里内容离左边Input 的距离*/
+}
+
+.password{
+	position: relative;
+}
+.password input{
+	height: 50px;
+	width: 100%;
+	font-size: 16px;
+	margin-top: 10px;
+	display: block;/*块级元素*/
+	border: none;/*去掉输入框的边框*/
+	text-indent: 70px;
+}
+
+.password img{
+	position: absolute;
+	height: 25px;
+	top: 12px;
+	left: 20px;
+}
+
+.password span{
+	position: absolute;
+	height: 25px;
+	top: 10px;
+	left: 52px;
+	color: #bababa;
+	font-size: 20px;
 }
 
 .forget p{
