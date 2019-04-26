@@ -75,6 +75,10 @@ body{
 	color: #bababa;
 }
 
+.number input::-webkit-input-placeholder{
+	color: #bababa;/*设置input里面placeholder文字的颜色*/
+}
+
 .password{
 	position: relative;
 }
@@ -86,6 +90,10 @@ body{
 	display: block;/*块级元素*/
 	border: none;/*去掉输入框的边框*/
 	text-indent: 70px;
+}
+
+.password input::-webkit-input-placeholder{
+	color: #bababa;/*设置input里面placeholder文字的颜色*/
 }
 
 .password img{
@@ -104,7 +112,7 @@ body{
 	font-size: 20px;
 }
 
-.forget p{
+.forget a{
 	margin-top: 10px;
 	float: right;
 	color: #8bcdd7;
