@@ -11,13 +11,13 @@
 }
 
 .header .jiantou{
-	height: 16px;
-	width: 16px;
+	height: 12px;
+	width: 12px;
 	border-bottom: 2px solid white;
 	border-left: 2px solid white;
 	position: absolute;
 	left: 15px;
-	top: 10px;
+	top: 14px;
 	transform: rotate(45deg);/*使盒子旋转45度*/
 }
 
