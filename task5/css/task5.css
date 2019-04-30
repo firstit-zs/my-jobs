@@ -10,6 +10,16 @@
 	position: fixed;/*让header固定在顶部*/
 }
 
+.header .jiantou{
+	height: 16px;
+	width: 16px;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	transform: rotate(45deg);/*使盒子旋转45度*/
+}
 
 /*header下面的第一个P标签*/
 .header p{
@@ -71,27 +81,37 @@
 	color: white;
 	font-size: 12px;
 }
-
+/*专业技能部分*/
 .skill{
 	height: 50px;
 	width: 100%;
 	border-bottom: 1px solid #e1e5e7 ;
 	position: relative;
 }
- .skill b:nth-child(1){
+
+.skill .shuxian1{
+	height: 14px;
+	border-left: 2px solid #5fc0cd;
+	position: absolute;
+ 	left: 15px;
+ 	top: 18px;
+}
+
+ /*.skill b:nth-child(1){
  	color: #5fc0cd;
  	font-size: 15px;
  	position: absolute;
  	left: 15px;
  	top: 16px;
- }
+ }*/
  
  .skill b:nth-child(2){
  	position: absolute;
  	left: 30px;
- 	top: 16px;
+ 	top: 13px;
  }
 
+/*住家部分*/
 .message1{
 	height: 50px;
 	width: 95%;
@@ -125,13 +145,21 @@
      top: 18px;
      left: 84px;
 }
-
+/*从业年限部分*/
 .message2{
 	 height: 50px;
 	 width: 95%;
 	 position: relative;
 	 left: 5%;
 	 border-bottom: 1px solid #e1e5e7;
+}
+
+.message2 .shuxian2{
+	height: 14px;
+	border-left: 2px solid #999999;
+	position: absolute;
+ 	left: 90px;
+ 	top: 20px;
 }
 
 .message2 span:nth-child(1){
@@ -149,6 +177,7 @@
 	
 }
 
+/*工作时间部分*/
 .message3{
 	height: 50px;
 	 width: 95%;
@@ -156,6 +185,15 @@
 	 left: 5%;
 	 border-bottom: 1px solid #e1e5e7;
 }
+
+.message3 .shuxian3{
+	height: 14px;
+	border-left: 2px solid #999999;
+	position: absolute;
+ 	left: 90px;
+ 	top: 20px;
+}
+
 
 .message3 span:nth-child(1){
 	color: #999999;
@@ -172,12 +210,21 @@
 	
 }
 
+/*服务价格不部分*/
 .message4{
 	height: 50px;
 	 width: 95%;
 	 position: relative;
 	 left: 5%;
 	 border-bottom: 1px solid #e1e5e7;
+}
+
+.message4 .shuxian4{
+	height: 14px;
+	border-left: 2px solid #999999;
+	position: absolute;
+ 	left: 90px;
+ 	top: 20px;
 }
 
 .message4 span:nth-child(1){
@@ -194,6 +241,7 @@
 	color: #e26163;
 }
 
+/*自我介绍部分*/
 .message5{
 	 /*height: 50px;
 	 width: 95%;
@@ -208,10 +256,17 @@
      padding-bottom: 2%;
 }
 
+.message5 .shuxian5{
+	height: 14px;
+	border-left: 2px solid #999999;
+	position: absolute;
+ 	left: 90px;
+ 	top: 14%;
+}
+
 .message5 span:nth-child(1){
 	 color: #999999;
 	 display: block;
-     margin-top: 0px;
      float: left;
      margin-left: 15px;
 }
@@ -243,6 +298,7 @@
 	border-radius: 5px;
 	background-color: #ffffff;
 	border-color: #5fc0cd;
+	color: #5fc0cd;
 	left: 20px;
 	margin-left:15px;
 	float: left;
