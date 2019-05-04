@@ -239,12 +239,16 @@
 .message5 .box{
 	display: flex;
 	align-items: center;
+	 margin-left: 5%;
 }
 
 .message5 .box span{
 	color: #999999;
-	margin-left: 30px;
 	white-space: nowrap;
+}
+
+.message5 .box1{
+	margin-left: 15px;
 }
 
 .message5 .box1 span{
