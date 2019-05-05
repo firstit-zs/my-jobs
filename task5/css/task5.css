@@ -241,7 +241,6 @@
 .message5 .box{
 	display: flex;
 	align-items: center;
-	margin-left: 30px;
 }
 
 .message5 .box span{
@@ -255,14 +254,14 @@
 
 .message5 .box1{
 	color: #999999;
-	/*margin-left: 34px;*/
+	margin-left: 34px;
 }
 
 .message5 .shuxian5{
 	height: 16px;
 	border-left: 2px solid #999999;
 	position: absolute;
- 	left: 144px;
+ 	left: 140px;
 }
 
 
