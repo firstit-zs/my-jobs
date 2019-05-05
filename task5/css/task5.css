@@ -108,8 +108,9 @@
 /*住家部分*/
 .message1{
 	height: 50px;
+	width:95%;
 	position: relative;
-	left: 50px;
+	left: 5%;
 	border-bottom: 1px solid #e1e5e7;
 	display: flex;
 	align-items: center;
@@ -139,8 +140,9 @@
 /*从业年限部分*/
 .message2{
 	 height: 50px;
+	 width:95%;
 	 position: relative;
-	 left: 50px;
+	 left: 5%;
 	 border-bottom: 1px solid #e1e5e7;
 	 display: flex;
 	 align-items: center;
@@ -166,8 +168,9 @@
 /*工作时间部分*/
 .message3{
 	height: 50px;
+	width:95%;
 	 position: relative;
-	 left: 50px;
+	 left: 5%;
 	 border-bottom: 1px solid #e1e5e7;
 	 display: flex;
 	 align-items: center;
@@ -194,8 +197,9 @@
 /*服务价格不部分*/
 .message4{
 	height: 50px;
+	width:95%;
 	 position: relative;
-	 left: 50px;
+	 left: 5%;
 	 border-bottom: 1px solid #e1e5e7;
 	 display: flex;
 	 align-items: center;
@@ -223,6 +227,8 @@
 	 /*height: auto;/*让div的高度随div里面的内容变化*/
      border-bottom: 1px solid #e1e5e7;
      display: flex;
+	 width;95%;
+	 margin-left:5%;
      align-items: center;
      padding: 17px;
 }
@@ -240,15 +246,16 @@
 
 .message5 .box span{
 	color: #999999;
-	margin-left: 30px;
+	
+	/*margin-left: 30px;*/
 	white-space: nowrap;
-	margin-left: 15px;
+	/*margin-left: 15px;*/
 }
 
 
 .message5 .box1{
 	color: #999999;
-	margin-left: 34px;
+	/*margin-left: 34px;*/
 }
 
 .message5 .shuxian5{
