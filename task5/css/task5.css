@@ -225,9 +225,8 @@
 /*自我介绍部分*/
 .message5{
 	 /*height: auto;/*让div的高度随div里面的内容变化*/
-     /*border-bottom: 1px solid #e1e5e7;*/
      display: flex;
-	 width;95%;
+	 width:95%;
 	 margin-left:5%;
      align-items: center;
      padding: 17px;
@@ -283,8 +282,8 @@
 	width: 44%;
 	border-radius: 5px;
 	background-color: #ffffff;
-	border-color: #5fc0cd;
 	color: #5fc0cd;
+	border: 1px solid #5fc0cd;
 	left: 20px;
 	margin-left:15px;
 	float: left;
@@ -295,7 +294,7 @@
 	width: 44%;
 	border-radius: 5px;
 	background-color: #5fc0cd;
-	border-color: #5fc0cd;
+	border: 1px solid #5fc0cd;
 	float: right;
 	color: white;
 	margin-right: 15px;
