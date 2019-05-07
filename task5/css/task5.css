@@ -224,12 +224,13 @@
 
 /*自我介绍部分*/
 .message5{
-	 /*height: auto;/*让div的高度随div里面的内容变化*/
-     display: flex;
 	 width:95%;
-	 margin-left:5%;
-     align-items: center;
-     padding: 17px;
+	 position: relative;
+	 left: 5%;
+	 display: flex;
+	 align-items: center;
+	 padding-top: 10px;
+     padding-bottom: 10px;
 }
 
 .message5 table{
@@ -247,6 +248,7 @@
 	border-right: 2px solid #999999;
 	white-space: nowrap;
 	line-height: 90%;
+	margin-left: 15px;
 }
 
 
