@@ -74,6 +74,8 @@ body{
 
 /*下拉框*/
 .header2 .downbox{
+	background-color: #ebf1f4;
+	color: #B4B4B4;
 	border: 0;
 	list-style: none;
 	position: absolute;
