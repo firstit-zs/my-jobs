@@ -1,0 +1,228 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 62.5%;
+}
+
+/*header顶部*/
+.header1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 46px;
+	background-color: #5fc0cd;
+}
+
+/*按钮*/
+.header1 button{
+	height: 30px;
+	width: 70px;
+	border-radius: 4px;
+	border: 0;
+}
+
+/*找雇主按钮*/
+.header1 .but1{
+	background-color: #55a8b3;
+	color: white;
+}
+
+/*找护工按钮*/
+.header1 .but2{
+	background-color: white;
+	color: #55a8b3;
+}
+
+/*header里面的地图标*/
+.header1 .but3{
+	height: 45px;
+	width: 45px;
+	background-color: #5fc0cd;
+	background-image: url(../img/css_sprites.png);
+	background-repeat: no-repeat;
+	background-position: -8px -10px;
+	transform: scale(0.5);/*缩小*/
+	position: absolute;
+    right: 0px;
+}
+
+/*heade2下面的*/
+
+.header2 .menus{
+	display: flex;
+	position: relative;
+	align-items: center;
+	height: 32px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #E3E7E8;
+}
+.header2 ul button{
+	background-color: #FFFFFF;
+	border: 0;
+	height: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #b4b4b4;
+	flex: 1;
+	text-align: center;
+	list-style: none;/*取消前面的黑点*/
+}
+
+/*下拉框*/
+.header2 .downbox{
+	border: 0;
+	list-style: none;
+	position: absolute;
+	display: none;
+	margin: 10px;
+}
+
+.header2 .downbox li{
+	padding: 8px;
+}
+
+/*hover选择器的使用（实现鼠标悬浮效果，鼠标移上去div显示）*/
+.header2 .menus button:hover .downbox{
+	display: block;
+}
+
+.header2 ul li i{
+	display: block;
+    height: 16px;
+    width: 45px;
+    float: right;
+    background-image: url(../img/css_sprites.png);
+    background-position: 63px 29px;
+    transform: scale(0.7);
+}
+
+.header2 ul button:nth-child(1){
+	border-right: 1px solid #e3e7e8;
+}
+
+.header2 ul button:nth-child(2){
+	border-right: 1px solid #e3e7e8;
+}
+
+
+/*中间部分*/
+.box1{
+	height: 90px;
+	border-bottom: 1px solid #e3e7e8;
+	display: flex;
+	position: relative;
+}
+
+.box1 .box-left{
+    padding-left: 30px;
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.box1 .box-left i:nth-child(1){
+	position: absolute;
+	display: block;
+	height: 30px;
+	width: 30px;
+	background-image: url(../img/css_sprites.png);
+	background-position: 38px -8px;
+	top: 6px;
+	left: 0px;
+	transform: scale(0.6);
+}
+
+.box1 .box-left i:nth-child(2){
+	position: absolute;
+	display: block;
+	height: 30px;
+	width: 30px;
+	background-image: url(../img/css_sprites.png);
+	background-position: 38px 74px;
+	top: 55px;
+	left: 0px;
+	transform: scale(0.6);
+}
+
+.box1 .box-left ul{
+	list-style: none;
+}
+
+.box1 .box-left ul li:nth-child(1){
+	padding-bottom: 8px;
+}
+
+.box1 .box-left ul li:nth-child(2){
+	padding-bottom: 8px;
+}
+
+.box1 .box-right{
+	display: flex;
+	align-items: center;
+	color: #ec6b4a;
+	
+}
+
+.box1 .box-right .jiantou{
+	height: 13px;
+	width: 13px;
+	border-top: 2px solid #5fc0cd;
+	border-right: 2px solid #5fc0cd;
+	transform: rotate(45deg);
+	margin-right: 15px;
+}
+
+.footer{
+	display: flex;
+	position: absolute;
+	background-color: #f8fafb;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
