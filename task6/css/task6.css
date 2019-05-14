@@ -7,6 +7,12 @@ body{
 }
 
 /*header顶部*/
+.header{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
 .header1{
 	display: flex;
 	align-items: center;
@@ -51,6 +57,7 @@ body{
 /*heade2下面的*/
 
 .header2 .menus{
+	background-color: white;
 	display: flex;
 	position: relative;
 	align-items: center;
@@ -59,59 +66,42 @@ body{
 	padding-bottom: 4px;
 	border-bottom: 1px solid #E3E7E8;
 }
-.header2 ul button{
-	background-color: #FFFFFF;
-	border: 0;
-	height: 28px;
+
+.header2{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
+	border-bottom: 1px solid #E3E7E8;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #FFFFFF;
+	
+}
+
+.header2 select{
+	border: 0;
+	/*-webkit-appearance: none;取消右边箭头*/
+	height: 28px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 	color: #b4b4b4;
 	flex: 1;
-	text-align: center;
-	list-style: none;/*取消前面的黑点*/
+	border-right: 1px solid #E3E7E8;
 }
 
-/*下拉框*/
-.header2 .downbox{
-	background-color: #ebf1f4;
-	color: #B4B4B4;
+.header2 select:nth-child(3){
 	border: 0;
-	list-style: none;
-	position: absolute;
-	display: none;
-	margin: 10px;
-}
-
-.header2 .downbox li{
-	padding: 8px;
-}
-
-/*hover选择器的使用（实现鼠标悬浮效果，鼠标移上去div显示）*/
-.header2 .menus button:hover .downbox{
-	display: block;
-}
-
-.header2 ul li i{
-	display: block;
-    height: 16px;
-    width: 45px;
-    float: right;
-    background-image: url(../img/css_sprites.png);
-    background-position: 63px 29px;
-    transform: scale(0.7);
-}
-
-.header2 ul button:nth-child(1){
-	border-right: 1px solid #e3e7e8;
-}
-
-.header2 ul button:nth-child(2){
-	border-right: 1px solid #e3e7e8;
 }
 
 
 /*中间部分*/
+
+.box{
+	padding-top: 78px;
+}
+
 .box1{
 	height: 90px;
 	border-bottom: 1px solid #e3e7e8;
@@ -178,16 +168,76 @@ body{
 	margin-right: 15px;
 }
 
+/*footer底部*/
 .footer{
 	display: flex;
-	position: absolute;
+    position: absolute;
+    background-color: #f8fafb;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footer button{
+	border: 0;
 	background-color: #f8fafb;
+}
+
+.footer .home,.write,.my{
+	display: flex;
+	align-items: flex-end;
+    justify-content: center;
+	width: 50px;
 	height: 50px;
+	flex: 1;
+	
+}
+
+.footer .home i{
+	position: absolute;
+	top: -3px;
+	left: 29px;
+	display: block;
+	height: 40px;
+	width: 50px;
+	background-image: url(../img/css_sprites.png);
+	background-position: -70px -9px;
+	background-repeat: no-repeat;
+	transform: scale(0.6);
+}
+
+.footer .write button{
+	background-color: #5fc0cd;
+    border-radius: 25px;
 }
 
 
+.footer .write i{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/css_sprites.png);
+	background-position: -66px -72px;
+	background-color: #5fc0cd;
+	border-radius: 25Px;
+	background-repeat: no-repeat;
+	transform: scale(0.7);
+}
 
-
+.footer .my i{
+	    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/css_sprites.png);
+    background-position: -4px -72px;
+    background-repeat: no-repeat;
+    transform: scale(0.6);
+    position: absolute;
+    top: -6px;
+    right: 30px;
+}
 
 
 
