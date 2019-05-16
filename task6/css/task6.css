@@ -35,11 +35,22 @@ body{
 	color: white;
 }
 
+.header1 .but1:hover{
+	background-color: white;
+	color: #5FC0CD;
+}
+
 /*找护工按钮*/
 .header1 .but2{
-	background-color: white;
-	color: #55a8b3;
+	background-color: #55a8b3;
+	color: white;
 }
+
+.header .but2:hover{
+	background-color: white;
+	color: #5FC0CD;
+}
+
 
 /*header里面的地图标*/
 .header1 .but3{
@@ -78,6 +89,7 @@ body{
 	
 }
 
+/*select下拉框*/
 .header2 select{
 	border: 0;
 	/*-webkit-appearance: none;取消右边箭头*/
@@ -89,6 +101,8 @@ body{
 	color: #b4b4b4;
 	flex: 1;
 	border-right: 1px solid #E3E7E8;
+	text-align: center;
+    text-align-last: center;/*文字居中*/
 }
 
 .header2 select:nth-child(3){
@@ -100,6 +114,7 @@ body{
 
 .box{
 	padding-top: 78px;
+	padding-bottom: 50px;
 }
 
 .box1{
@@ -145,11 +160,20 @@ body{
 }
 
 .box1 .box-left ul li:nth-child(1){
+	display: block;
 	padding-bottom: 8px;
+	color: #b3b3b3;
+	white-space: nowrap;
 }
 
 .box1 .box-left ul li:nth-child(2){
+	white-space: nowrap;
 	padding-bottom: 8px;
+}
+
+.box1 .box-left ul li:nth-child(3){
+	white-space: nowrap;
+	color: #b3b3b3;
 }
 
 .box1 .box-right{
@@ -196,9 +220,6 @@ body{
 }
 
 .footer .home i{
-	position: absolute;
-	top: -3px;
-	left: 29px;
 	display: block;
 	height: 40px;
 	width: 50px;
@@ -207,6 +228,13 @@ body{
 	background-repeat: no-repeat;
 	transform: scale(0.6);
 }
+
+.footer .home span{
+	color: #5fc0cd;
+	display: block;
+	margin-top: -6px;
+}
+
 
 .footer .write button{
 	background-color: #5fc0cd;
@@ -229,17 +257,17 @@ body{
 .footer .my i{
 	    display: block;
     width: 50px;
-    height: 50px;
+    height: 40px;
     background-image: url(../img/css_sprites.png);
     background-position: -4px -72px;
     background-repeat: no-repeat;
     transform: scale(0.6);
-    position: absolute;
-    top: -6px;
-    right: 30px;
 }
 
-
+.footer .my span{
+	display: block;
+	margin-top: -6px;
+}
 
 
 
