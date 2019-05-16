@@ -124,11 +124,16 @@ body{
 	position: relative;
 }
 
+.box1 .box-left ul{
+	width: 100%;
+}
+
 .box1 .box-left{
     padding-left: 30px;
 	display: flex;
 	flex: 1;
 	align-items: center;
+	width: 50%;
 }
 
 .box1 .box-left i:nth-child(1){
@@ -163,12 +168,16 @@ body{
 	display: block;
 	padding-bottom: 8px;
 	color: #b3b3b3;
-	white-space: nowrap;
+	
 }
 
 .box1 .box-left ul li:nth-child(2){
 	white-space: nowrap;
 	padding-bottom: 8px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .box1 .box-left ul li:nth-child(3){
@@ -180,7 +189,7 @@ body{
 	display: flex;
 	align-items: center;
 	color: #ec6b4a;
-	
+	white-space: nowrap;
 }
 
 .box1 .box-right .jiantou{
