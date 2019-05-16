@@ -125,6 +125,7 @@ body{
 }
 
 .box1 .box-left ul{
+	list-style: none;
 	width: 100%;
 }
 
@@ -160,9 +161,9 @@ body{
 	transform: scale(0.6);
 }
 
-.box1 .box-left ul{
+/*.box1 .box-left ul{
 	list-style: none;
-}
+}*/
 
 .box1 .box-left ul li:nth-child(1){
 	display: block;
@@ -174,9 +175,9 @@ body{
 .box1 .box-left ul li:nth-child(2){
 	white-space: nowrap;
 	padding-bottom: 8px;
-	overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+	overflow: hidden;/*把超出的内容进行隐藏*/
+    white-space: nowrap;/*文字不换行*/
+    text-overflow: ellipsis;/*设置超出内容为省略号*/
     width: 100%;
 }
 
